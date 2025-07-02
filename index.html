@@ -2,50 +2,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Yash Events & Management</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <header>
-    <img src="logo.jpg" alt="Logo" class="logo">
-    <h1>Yash Events & Management</h1>
-    <nav>
-      <a href="#services">Services</a>
-      <a href="#manpower">Manpower</a>
-      <a href="#contact">Contact</a>
+  <header class="header">
+    <nav class="navbar">
+      <img src="logo.jpg" alt="Logo" class="logo" />
+      <ul class="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#manpower">Manpower</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
+    <div class="hero">
+      <h1>Yash Events & Management</h1>
+      <p>Turning Dreams Into Reality</p>
+    </div>
   </header>
 
-  <section id="hero">
-    <h2>We Create Moments That Matter</h2>
-    <p>Weddings, Corporates, Birthdays, and more!</p>
+  <section id="services" class="section">
+    <h2>Our Services</h2>
+    <div class="cards">
+      <div class="card"><h3>Wedding Planning</h3><p>Elegant & customized weddings</p></div>
+      <div class="card"><h3>Corporate Events</h3><p>Professional, impactful events</p></div>
+      <div class="card"><h3>Birthday Parties</h3><p>Fun, creative & joyful moments</p></div>
+      <div class="card"><h3>Cultural Programs</h3><p>Stage, Sound, Lights & Coordination</p></div>
+    </div>
   </section>
 
-  <section id="services">
-    <h3>Our Services</h3>
-    <ul>
-      <li>Wedding Planning</li>
-      <li>Corporate Events</li>
-      <li>Birthday Parties</li>
-      <li>Cultural Programs</li>
-    </ul>
-  </section>
-
-  <section id="manpower">
-    <h3>Manpower Services</h3>
+  <section id="manpower" class="section">
+    <h2>Manpower Services</h2>
     <p>Trained and professional staff for all event needs – from decoration to management.</p>
   </section>
 
-  <section id="contact">
-    <h3>Contact Us</h3>
+  <section id="contact" class="section contact">
+    <h2>Contact Us</h2>
     <p>Email: yashprajapati2907@gmail.com</p>
     <p>Phone: 7383766812</p>
-    <p><a href="https://chat.whatsapp.com/BvZRvWKtvKIHgRC1pRCW1A" target="_blank">WhatsApp Us</a></p>
+    <a href="https://chat.whatsapp.com/BvZRvWKtvKIHgRC1pRCW1A" class="whatsapp-btn" target="_blank">
+      <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+    </a>
   </section>
 
   <footer>
-    <p>© 2025 Yash Events & Management</p>
+    <p>© 2025 Yash Events & Management. All rights reserved.</p>
   </footer>
 </body>
 </html>
