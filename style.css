@@ -17,57 +17,57 @@ body {
 }
 .overlay {
   background: rgba(0,0,0,0.6);
-  padding: 50px;
+  padding: 30px 20px;
   border-radius: 12px;
+  width: 90%;
+  max-width: 600px;
 }
 .overlay h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-bottom: 10px;
 }
 .overlay p {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 section {
-  padding: 60px 20px;
+  padding: 50px 20px;
   text-align: center;
 }
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
   margin-top: 30px;
 }
 .card {
   background: white;
-  padding: 30px;
+  padding: 20px;
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.1);
 }
 .card i {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: #f0c040;
   margin-bottom: 10px;
 }
 .stats {
   display: flex;
   justify-content: center;
-  gap: 50px;
   flex-wrap: wrap;
+  gap: 20px;
 }
 .stat h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #f0c040;
 }
-.gallery .grid {
+.grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 10px;
-  margin-top: 20px;
 }
 .grid img {
   width: 100%;
-  height: auto;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 .testimonials .testimonial {
   background: white;
@@ -80,27 +80,27 @@ section {
 .contact form {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 12px;
   max-width: 400px;
-  margin: auto;
+  margin: 0 auto;
 }
 form input, form textarea {
-  padding: 12px;
-  border-radius: 8px;
+  padding: 10px;
+  border-radius: 6px;
   border: 1px solid #ccc;
+  font-size: 1rem;
 }
 form button {
   padding: 12px;
   background: #f0c040;
   color: white;
-  border: none;
   font-weight: bold;
-  border-radius: 8px;
+  border: none;
+  border-radius: 6px;
   cursor: pointer;
 }
 footer {
   background: #222;
   color: white;
-  padding: 20px;
-  margin-top: 40px;
+  padding: 15px;
 }
